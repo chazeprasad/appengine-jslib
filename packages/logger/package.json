@@ -1,0 +1,26 @@
+{
+    "name": "@appengine/logger",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "url": "https://github.com/chazeprasad/appengine-jslib",
+        "directory": "packages/logger",
+        "type": "git"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@types/node": "^20.11.24",
+        "debug": "^4.3.4"
+    },
+    "gitHead": "1fe19c95d00baff733981fc8be6487e5103d93ba"
+}

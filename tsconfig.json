@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "outDir": "dist",
+        "lib": ["es6"],
+        "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": false,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["packages/**/*", "integration/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
