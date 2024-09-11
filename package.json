@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@appengine/root",
+    "name": "@chazeprasad/root",
     "version": "1.0.0",
     "description": "AppEngine JS Library",
     "homepage": "",
